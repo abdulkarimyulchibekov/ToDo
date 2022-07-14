@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>To Do</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="box1">
+				<form autocomplete="off" class="js-form">
+					<input
+						name="todo"
+						class="js-input"
+						type="text"
+						placeholder="Write To Do"
+					/>
+					<button type="submit">send your to do</button>
+				</form>
+
+				<ul class="js-list"></ul>
+
+				<div class="btn-group">
+					<button class="all-btn">
+						All <strong class="all-count">0</strong>
+					</button>
+					<button class="comp-btn">
+						Completed <strong class="comp-count">0</strong>
+					</button>
+					<button class="uncomp-btn">
+						Uncompleted <strong class="uncomp-count">0</strong>
+					</button>
+					<button class="remove-btn">Remove All</button>
+				</div>
+			</div>
+			<div class="box2">
+				<h2 style="text-align: center">Your bookmarked works</h2>
+				<ul class="bookmarked-list"></ul>
+			</div>
+		</div>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
